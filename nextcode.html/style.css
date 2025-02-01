@@ -1,0 +1,12 @@
+#box{
+    width: 250px;
+    height: 250px;
+    background-color: #f00;
+    font-size: 13em;
+    text-align: center;
+    animation-name: rotate; 
+    animation-duration: 10s;
+}
+@keyframes rotate{
+      from{transform: rotatex(360deg)}
+    }
